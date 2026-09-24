@@ -32,3 +32,16 @@
 .link.dark:hover {
   color: #fff;
 }
+
+.name {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.name.light {
+  color: #444;
+}
+
+.name.dark {
+  color: #bbb;
+}
