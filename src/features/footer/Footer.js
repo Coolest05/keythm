@@ -28,6 +28,9 @@ const Footer = ({ currentTheme, theme }) => (
         /> GitHub
       </div>
     </a>
+    <span className={`${styles.name} ${currentTheme == "light" ? styles.light : styles.dark}`}>
+      Segun Ajakaiye
+    </span>
   </div>
 )
 
